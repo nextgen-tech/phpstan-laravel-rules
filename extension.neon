@@ -1,0 +1,10 @@
+services:
+    -
+        class: NGT\PHPStan\Rules\ForbiddenFunctionsInCode
+        tags:
+            - phpstan.rules.rule
+
+    -
+        class: NGT\PHPStan\Rules\ForbiddenMethodsInCode
+        tags:
+            - phpstan.rules.rule
